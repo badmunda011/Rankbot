@@ -10,7 +10,7 @@ from pyrogram.types import Message
 
 
 # --------------------------------------------------------------------------
-mongo_uri = "mongodb+srv://teamdaxx123:teamdaxx123@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority"
+mongo_uri = "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
 database_name = "MONGODB"
 # ------------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ def top_members(_, message):
             first_name = "Unknown"
         
         total_messages = member["total_messages"]
-        user_info = f"{idx}. 👤{Mention}, •{total_messages}\n"
+        user_info = f"{idx},👤{Mention}, •{total_messages}\n"
         response += user_info
 
     message.reply_text(response)
